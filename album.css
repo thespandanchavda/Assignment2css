@@ -1,0 +1,72 @@
+/* Define box sizing and padding */
+* {
+  box-sizing: border-box;
+  background-color: rgb(247, 224, 166);
+}
+header{
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+}
+
+/* Style for the package container */
+.pacakage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for each class */
+.class1,
+.class2,
+.class3,
+.class4,
+.class5,
+.class6,
+.class7,
+.class8 {
+  width: calc(33.33% - 20px); /* Subtract 20px for the margin */
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+}
+.class1,
+.class2,
+.class3,
+.class4,
+.class5,
+.class6,
+.class7,
+.class8 h2,p {
+    background-color: white;
+}
+
+/* Style for each image */
+.class1 img,
+.class2 img,
+.class3 img,
+.class4 img,
+.class5 img,
+.class6 img,
+.class7 img,
+.class8 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .class1,
+  .class2,
+  .class3,
+  .class4,
+  .class5,
+  .class6,
+  .class7,
+  .class8 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
